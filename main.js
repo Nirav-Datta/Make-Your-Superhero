@@ -1,4 +1,3 @@
-const { fabric } = require("./fabric");
 var canvas = new fabric.Canvas('myCanvas');
 var block_width = 30;
 var block_height = 30;
