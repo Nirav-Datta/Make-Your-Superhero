@@ -54,19 +54,19 @@ function my_keydown(e){
     if(keyPressed == '82') { new_image('thor_right_hand.png'); console.log("R");}
     if(keyPressed == '72') { new_image('ironman_left_hand.png'); console.log("H");}
     if(keyPressed == '38'){
-        up();
+    //    up();
         console.log("up");
     }
     if(keyPressed == '40'){
-        down();
+     //   down();
         console.log("down");
     }
     if(keyPressed == '37'){
-        left();
+       // left();
         console.log("left");
     }
     if(keyPressed == '39'){
-        right();
+        //right();
         console.log("right");
     }
 }
