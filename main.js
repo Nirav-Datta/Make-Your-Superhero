@@ -1,7 +1,7 @@
 var keyPressed;
 var canvas = new fabric.Canvas('myCanvas');
-var block_width = 30;
-var block_height = 30;
+var block_image_width = 30;
+var block_image_height = 30;
 var player_x = 0;
 var player_y = 0;
 var player_object = "";
@@ -27,7 +27,7 @@ function new_image(get_image){
             top:player_y,
             left:player_x
         });
-canvas.add(block_image_object);
+canvas.add(block_object);
     });
 }
 window.addEventListener("keydown", my_keydown);
